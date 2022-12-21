@@ -110,7 +110,7 @@ void back_ascending()
             j = j + 1;
         }
         data[j - 1] = value;
-        cout << "Pass" << 8 - i << ": ";
+        cout << "Pass" << n - i << ": ";
         for (int k = 1; k <= n; k++)
         {
             cout << data[k] << " ";
@@ -150,7 +150,7 @@ void back_descending()
             j = j + 1;
         }
         data[j - 1] = value;
-        cout << "Pass" << 8 - i << ": ";
+        cout << "Pass" << n - i << ": ";
         for (int k = 1; k <= n; k++)
         {
             cout << data[k] << " ";
